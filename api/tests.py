@@ -102,23 +102,3 @@ class MicromortsTestCase(TestCase):
         self.assertEqual(response.status_code, 400)
         self.assertEqual(response_data['error'], expected)
     
-
-
-def main():
-    class CustomResult(TextTestResult):
-        def __init__(self, *args, **kwargs):
-            super(CustomResult, self).__init__(*args, **kwargs)
-            self.success = []
-
-        def addSuccess(self, test):
-            super(CustomResult, self).addSuccess(test)
-            self.success.append(test)
-
-    unit = unittest.main(verbosity=2, exit=False, testRunner=TextTestRunner(resultclass=CustomResult))
-    result = unit.result  # type: CustomResult
-
-    print('failures:')
-    for test, trace in result.failures:
-        print(test)
-        # print(trace) ...if you need
-    print('*' * 20 + '\n')
