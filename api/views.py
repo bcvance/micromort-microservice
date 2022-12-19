@@ -10,7 +10,7 @@ from .utils.micromort_model import calculate_micromorts
 # Create your views here.
 
 @api_view(['POST'])
-def test_endpoint(request):
+def get_micromorts(request):
     ''' This function performs all od the validation and calculation needed for our micromort service. '''
 
     validated_data = validate_input(request.data)

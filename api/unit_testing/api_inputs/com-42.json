@@ -1,0 +1,28 @@
+{
+	"commuterID": "COM-42",
+	"actions": [{
+			"ts": "2022-01-01 10:05:11",
+			"action": "walked on sidewalk",
+			"unit": "mile",
+			"quantity": 0.4
+		},
+		{
+			"ts": "2022-01-01 10:16:52",
+			"action": "took a bus",
+			"unit": "mile",
+			"quantity": 12
+		},
+		{
+			"ts": "2022-01-01 10:30:09",
+			"action": "rode a shark",
+			"unit": "minute",
+			"quantity": 3
+		},
+		{
+			"ts": "2022-01-01 10:33:45",
+			"action": "took elevator",
+			"unit": "floor",
+			"quantity": 20
+		}
+	]
+}

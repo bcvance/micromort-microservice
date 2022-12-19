@@ -1,0 +1,9 @@
+{
+	"commuterID": "COM-1",
+	"actions": [{
+		"ts": "2022-02-01 8:40:00",
+		"action": "drove a car",
+		"unit": "mile",
+		"quantity": 67
+	}]
+}
