@@ -11,8 +11,9 @@ from .utils.micromort_model import calculate_micromorts
 
 @api_view(['POST'])
 def get_micromorts(request):
-    ''' This function performs all od the validation and calculation needed for our micromort service. '''
+    ''' This function performs all of the validation and calculation needed for our micromort service. '''
 
+    # validate input data
     validated_data = validate_input(request.data)
 
     # if request input not in correct format, return error
@@ -23,5 +24,5 @@ def get_micromorts(request):
 
     total_micromorts = calculate_micromorts(validated_data)
 
-    return Response({'total_micromorts': total_micromorts}, status=status.HTTP_200_OK)
+    return Response({'commuterID': validated_data['commuterID'], 'total_micromorts': total_micromorts}, status=status.HTTP_200_OK)
     

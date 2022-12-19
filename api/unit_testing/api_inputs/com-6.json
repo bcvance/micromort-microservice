@@ -1,0 +1,21 @@
+{
+	"commuterID": "COM-6",
+	"actions": [{
+			"ts": "2022-01-01 10:05:11",
+			"action": "jogged",
+			"unit": "mile",
+			"quantity": 10
+		},
+		{
+			"action": "scuba dove through a cave",
+            "unit": "minute",
+			"quantity": 20
+		},
+		{
+			"ts": "2022-01-01 10:45:45",
+			"action": "walked up stairs",
+			"unit": "floor",
+			"quantity": 120
+		}
+	]
+}
