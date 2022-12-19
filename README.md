@@ -12,7 +12,7 @@ Installation Instructions:
 6. Run initial migrations for the database with ```python manage.py migrate``` in the terminal
 7. Start up the dev server with ```python manage.py runserver```
 8. If you would like to run the test cases, in your terminal enter ```./manage.py test``` from the parent directory (micromort-microservice)
-9. If you would like to test the API on your own, any API platform (such as Postman) will work. Make sure that the Content-Type header is set to "application/json" or else you may receive errors.
+9. If you would like to test the API on your own, any API platform (such as Postman) will work. Be sure that the ```Content-Type``` header is set to ```application/json``` or else you may receive errors. By default, the Django Framework, with which this project was built, will start the server at ```http://127.0.0.1:8000/```, so POST requests for this endpoint can be made to ```http://127.0.0.1:8000/api/```
 
 
 Navigating the codebase:
