@@ -25,7 +25,7 @@ Running Test Cases:
 
 Navigating the codebase:
 ---------
-The main API endpoint function can be found ```in ./api/views.py```    
+The main API endpoint function can be found in ```./api/views.py```    
 The input schema validator can be found in ```./api/utils/validators.py```  
 The micromort calculation model can be found in ```./api/utils/micromort_model.py```  
 The test cases can be found in ```./api/tests.py```  
