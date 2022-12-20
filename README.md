@@ -34,7 +34,7 @@ And finally, the json input files used for testing can be found in ```./api/unit
 
 Troubleshooting:
 ---------
-If the interpreter is not recognizing pip installations, ensure that your venv is activated, and that your Python interpreter is the one asoociated with your currently active venv.
+If the interpreter is not recognizing pip installations, ensure that your venv is activated, and that your Python interpreter is the one associated with your currently active venv.
 
 
 
