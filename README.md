@@ -32,3 +32,9 @@ The micromort calculation model can be found in ```./api/utils/micromort_model.p
 The test cases can be found in ```./api/tests.py```  
 And finally, the json input files used for testing can be found in ```./api/unit_testing/api_inputs```  
 
+Troubleshooting:
+---------
+If the interpreter is not recognizing pip installations, ensure that your venv is activated, and that your Python interpreter is the one asoociated with your currently active venv.
+
+
+
