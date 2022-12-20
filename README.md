@@ -18,9 +18,8 @@ Running Test Cases:
 
 1. Open new terminal
 2. Navigate to project folder created in previous section
-3. Activate the virtual environment with ```source venv/bin/activate```
-4. Once the venv is activated, download the project's dependencies with ```pip install -r "requirements.txt"```. Depending on your system, you may see the error ```No matching distribution found for Django===4.1.4```; in this case, change the Django version in requirements.txt to the most recent available version shown by the error.
-5. Once in the parent directory (micromort-microservice), enter ```./manage.py test``` to run all test cases
+3. If venv not already activated, activate the virtual environment with ```source venv/bin/activate```
+4. Once in the parent directory (micromort-microservice), enter ```./manage.py test``` to run all test cases
 
 
 
