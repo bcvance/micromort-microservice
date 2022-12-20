@@ -1,7 +1,7 @@
 <h1>Micromort Microservice</h1>
 
 
-Installation Instructions:
+Installation Instructions (establishing dev server):
 ---------
 
 1. Open a terminal, navigate to the parent folder which should contain the project, and enter ```git clone https://github.com/bcvance/micromort-microservice.git```
@@ -11,8 +11,17 @@ Installation Instructions:
 5. Once the venv is activated, download the project's dependencies with ```pip install -r "requirements.txt"```. Depending on your system, you may see the error ```No matching distribution found for Django===4.1.4```; in this case, change the Django version in requirements.txt to the most recent available version shown by the error.
 6. Run initial migrations for the database with ```python manage.py migrate``` in the terminal
 7. Start up the dev server with ```python manage.py runserver```
-8. If you would like to run the test cases, navigate to the parent directory, and in your terminal enter ```./manage.py test``` from the parent directory (micromort-microservice)
-9. If you would like to test the API on your own, any API platform (such as Postman) will work. Be sure that the ```Content-Type``` header is set to ```application/json``` or else you may receive errors. By default, the Django Framework, with which this project was built, will start the server at ```http://127.0.0.1:8000/```, so POST requests for this endpoint can be made to ```http://127.0.0.1:8000/api/```
+
+
+Running Test Cases:
+---------
+
+1. Open new terminal
+2. Navigate to project folder created in previous section
+3. Activate the virtual environment with ```source venv/bin/activate```
+4. Once the venv is activated, download the project's dependencies with ```pip install -r "requirements.txt"```. Depending on your system, you may see the error ```No matching distribution found for Django===4.1.4```; in this case, change the Django version in requirements.txt to the most recent available version shown by the error.
+5. Once in the parent directory (micromort-microservice), enter ```./manage.py test``` to run all test cases
+
 
 
 Navigating the codebase:
